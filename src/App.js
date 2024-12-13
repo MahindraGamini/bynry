@@ -11,7 +11,7 @@ import {
 import { AdminProvider } from './context/AdminContext'
 
 import Sidebar from './components/NavBar'
-// Import main components
+
 import Dashboard from './components/DashBoard'
 import ProfileDetails from './components/ProfileDetails'
 import AdminPanel from './components/AdminPanel'
@@ -21,7 +21,7 @@ const AppLayout = () => {
   return (
     <div className="flex">
       <Sidebar />
-      <main className="ml-64 flex-grow p-6">
+      <main className="lg:ml-64 flex-grow p-6">
         <Outlet />
       </main>
     </div>
